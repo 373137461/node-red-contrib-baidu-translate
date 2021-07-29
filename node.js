@@ -19,7 +19,7 @@ module.exports = function (RED) {
                 phrase = msg.payload.phrase;
             }
             translate(phrase + '', conf).then(function (res) {
-                msg.payload = res.text;
+                msg.payload = res.trans_result.dst;
                 node.send(msg);
             }).catch(function (err) {
                 node.error(err);
