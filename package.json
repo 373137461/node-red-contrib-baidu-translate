@@ -1,0 +1,33 @@
+{
+  "name": "node-red-contrib-baidu-translate",
+  "version": "1.0.0",
+  "description": "Node-RED node for Baidu Translate",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "baidu-translate-api": "^0.4.3"
+  },
+  "node-red": {
+    "nodes": {
+      "baidu-translate": "node.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/373137461/node-red-contrib-baidu-translate.git"
+  },
+  "keywords": [
+    "node-red",
+    "baidu",
+    "translate",
+    "baidu translate"
+  ],
+  "author": "373137461",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/373137461/node-red-contrib-baidu-translate/issues"
+  },
+  "homepage": "https://github.com/373137461/node-red-contrib-baidu-translate#readme"
+}
