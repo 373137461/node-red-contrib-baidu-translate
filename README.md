@@ -1,7 +1,8 @@
 # node-red-contrib-baidu-translate
 Node-RED node for Baidu Translate
 百度翻译 for Node-RED
-
+[![npm version](https://badge.fury.io/js/node-red-contrib-baidu-translate.svg)](https://badge.fury.io/js/node-red-contrib-baidu-translate)
+[![GitHub version](https://badge.fury.io/gh/373137461%2Fnode-red-contrib-baidu-translate.svg)](https://badge.fury.io/gh/373137461%2Fnode-red-contrib-baidu-translate)
 Now you can choose the language using the payload!
 
 Based on <a href="https://www.npmjs.com/package/node-red-contrib-baidu-translate">This package    </a>
